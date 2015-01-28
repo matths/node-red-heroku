@@ -1,0 +1,8 @@
+{
+  "name": "Node-RED Heroku",
+  "description": "This is the Node-RED to work on Heroku.",
+  "env": {
+    "BASIC_AUTH_USER": "user",
+    "BASIC_AUTH_PASS": "5f4dcc3b5aa765d61d8327deb882cf99"
+  }
+}

@@ -19,6 +19,14 @@ Check out [INSTALL](INSTALL.md) for full instructions on getting started.
 4. node red.js
 5. Open <http://localhost:1880>
 
+## Deploy to Heroku
+
+Click Heroku Button and create new application.
+Default basic auth user/password
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+
 ## Documentation
 
 More documentation can be found [here](http://nodered.org/docs).

@@ -21,7 +21,7 @@
  
 module.exports = {
     // the tcp port that the Node-RED web server is listening on
-    uiPort: 1880,
+    uiPort: process.env.PORT || 1880,
 
     // By default, the Node-RED UI accepts connections on all IPv4 interfaces.
     // The following property can be used to listen on a specific interface. For
@@ -94,7 +94,7 @@ module.exports = {
     
     // The following property can be used in place of 'httpAdminAuth' and 'httpNodeAuth',
     // to apply the same authentication to both parts.
-    //httpAuth: {user:"user",pass:"5f4dcc3b5aa765d61d8327deb882cf99"},
+    httpAuth: {user:process.env.BASIC_AUTH_USER || "user",pass:process.env.BASIC_AUTH_PASS || "5f4dcc3b5aa765d61d8327deb882cf99"},
     
     // The following property can be used to disable the editor. The admin API
     // is not affected by this option. To disable both the editor and the admin

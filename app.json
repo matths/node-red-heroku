@@ -1,4 +1,8 @@
 {
   "name": "burdagreenkeeper",
-  "description": "This is the Node-RED to work on Heroku."
+  "description": "This is the Node-RED to work on Heroku.",
+  "env": {
+    "BASIC_AUTH_USER": "green",
+    "BASIC_AUTH_PASS": "keep"
+  }
 }
